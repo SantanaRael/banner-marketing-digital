@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body {
     background-color: #202020;
+
 }
 
 .container {
@@ -37,18 +40,20 @@ nav {
     transform: skew(15deg);
     border-radius: 10px;
     width: 200px;
+    font-family: 'Roboto', sans-serif;
+
 
 }
 
-.contact h2 {
+.contact h3 {
     color: white;
     transform: skew(-15deg);
 }
 
 
 main {
-    background-color: #c0914fdc;
-    height: 320px;
+    background-color: #af7d37dc;
+    height: 330px;
     width: 420px;
     position: absolute;
     top: 170px;
@@ -56,6 +61,7 @@ main {
     transform: skew(15deg);
     border-radius: 20px;
     z-index: 2;
+
 }
 
 main h1 {
@@ -66,6 +72,9 @@ main h1 {
     left: 120px;
     position: relative;
     transform: skew(-15deg);
+    font-family: 'Roboto', sans-serif;
+
+
 }
 
 main p {
@@ -79,7 +88,7 @@ main p {
 main::after{
     content: ' ';
     border: 4px solid #ffffffdc;
-    height: 320px;
+    height: 330px;
     width: 520px;
     position: absolute;
     top: 50px;
@@ -93,7 +102,7 @@ main::after{
 main::before{
     content: ' ';
     border: 4px solid #ffffffdc;
-    height: 320px;
+    height: 330px;
     width: 520px;
     position: absolute;
     top: -20px;
@@ -119,6 +128,7 @@ footer {
 
 .site p {
     cursor: pointer;
+
 }
 
 .arrow {
@@ -143,6 +153,8 @@ footer {
     width: 80px;
     border-radius: 10px 0px 0px 10px;
     color: white;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .controllers {
